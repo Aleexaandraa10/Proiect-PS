@@ -1,4 +1,4 @@
-# 📊 Aplicație Shiny pentru Distribuții de Variabile Aleatoare și Funcții Personalizate  
+# Aplicație Shiny pentru Distribuții de Variabile Aleatoare și Funcții Personalizate  
 
 ## 🔹 Descriere  
 Această aplicație interactivă, dezvoltată în **R Shiny**, permite explorarea distribuțiilor de probabilitate și a unor funcții personalizate prin vizualizări dinamice și interacțiune directă cu utilizatorul.  
@@ -18,12 +18,12 @@ Proiectul integrează concepte fundamentale de **statistică și probabilități
 ## 📌 Arhitectura Aplicației  
 Proiectul este structurat în două module principale:  
 
-### 📈 1. **Distribuții variabile aleatoare**  
+###  1. **Distribuții variabile aleatoare**  
 - Generare de eșantioane din distribuțiile alese  
 - Transformări aplicate variabilei aleatoare  
 - Reprezentare grafică a **funcției de repartiție empirică (ECDF)**  
 
-### 🔢 2. **Funcții personalizate**  
+###  2. **Funcții personalizate**  
 - Vizualizarea unor funcții definite analitic  
 - Ajustarea parametrilor și intervalelor de definiție  
 - Posibilitatea de a compara diverse funcții  
@@ -41,3 +41,7 @@ Proiectul este structurat în două module principale:
 1. Clonează repository-ul:  
    ```bash
    git clone https://github.com/Aleexaandraa10/proiect-ps.git
+2. Deschide RStudio și încarcă fișierul App.R
+3. Rulează aplicația cu:
+   ```bash   
+   shiny::runApp()
