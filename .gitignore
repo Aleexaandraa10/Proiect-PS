@@ -1,0 +1,8 @@
+# Excludem fișierele și directoarele generate de RStudio
+.RData
+.Rhistory
+.Rproj.user/
+
+# Excludem fișierele și directoarele temporare
+*.tmp
+*.log
